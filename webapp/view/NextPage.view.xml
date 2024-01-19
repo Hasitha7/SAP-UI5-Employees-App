@@ -1,0 +1,117 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="myproject.controller.NextPage" displayBlock="true">
+
+    <App id="NextPage">
+        <pages>
+            <Page id="nextpage" title="Employee Details" showNavButton="true" navButtonPress="onNavBack">  
+            <content>  
+                <Panel xmlns="sap.m" width="auto" expanded="true" id="panel0">    
+                    <content>    
+                        <HBox width="100%" id="hbox2" alignItems="Stretch">  
+                            <items>  
+                                <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" editable="true" id="form3" columnsM="2" columnsXL="2" labelSpanL="2" layout="GridLayout" binding="{EmployeeData>/EmployeeList}">  
+                                    <sap.ui.layout.form:content>  
+                                        <sap.ui.core:Title text="General Info" id="title19"/>  
+                                        <Label text="First Name"/>  
+                                        <Text id="FName" text="{GeneralInfo/FirstName}" width="100%"/>    
+                                        <Label text="Last Name"/>  
+                                        <Text id="LName" text="{GeneralInfo/LastName}" width="100%"/>
+                                        <Label text="Gender"/>  
+                                        <Text id="Gender" text="{GeneralInfo/Gender}" width="100%"/>
+                                        <Label text="DOB"/>  
+                                        <Text id="DOB" text="{GeneralInfo/DOB}" width="100%"/>
+                                        <Label text="DOJ"/>  
+                                        <Text id="DOJ" text="{GeneralInfo/DOJ}" width="100%"/>    
+                                        <Label text="Location"/>  
+                                        <Text id="LOC" text="{GeneralInfo/Location}" width="100%"/>
+                                        <Label text="Email"/>  
+                                        <Text id="Email" text="{GeneralInfo/Email}" width="100%"/>
+                                        <Label text="Phone"/>  
+                                        <Text id="Phone" text="{GeneralInfo/Phone}" width="100%"/></sap.ui.layout.form:content>  
+                                </sap.ui.layout.form:SimpleForm>  
+                                <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" editable="true" id="form2" layout="GridLayout" columnsM="2" columnsXL="2" labelSpanL="2" binding="{EmployeeData>/EmployeeList}">  
+                                    <sap.ui.layout.form:content>  
+                                        <sap.ui.core:Title text="Address Details" id="title15"/>  
+                                        <Label text="Street"/>  
+                                        <Text id="Street" text="{AddressDetails/Street}" width="100%"/>    
+                                        <Label text="City"/>  
+                                        <Text id="City" text="{AddressDetails/City}" width="100%"/>
+                                        <Label text="Zip Code"/>  
+                                        <Text id="ZIP" text="{AddressDetails/ZIPCode}" width="100%"/>
+                                        <Label text="Country"/>  
+                                        <Text id="Country" text="{AddressDetails/Country}" width="100%"/>
+                                        <Label text="Fax"/>  
+                                        <Text id="Fax" text="{AddressDetails/Fax}" width="100%"/>    
+                                        <Label text="Mobile"/>  
+                                        <Text id="Mobile" text="{AddressDetails/Mobile}" width="100%"/>
+                                        </sap.ui.layout.form:content>  
+                                </sap.ui.layout.form:SimpleForm>  
+                            </items>  
+                        </HBox>  
+                        <HBox width="100%" id="hbox3">  
+                            <items>  
+                                <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" editable="true" id="form6" columnsM="2" columnsXL="2" labelSpanL="2" layout="ColumnLayout" binding="{EmployeeData>/EmployeeList}">  
+                                    <sap.ui.layout.form:content>  
+                                        <sap.ui.core:Title text="Job Description" id="title31"/>  
+                                        <Label text="Job Title"/>  
+                                        <Text id="JTitle" text="{JobDesc/JobTitle}" width="100%"/>    
+                                        <Label text="Job Type"/>  
+                                        <Text id="JType" text="{JobDesc/JobType}" width="100%"/>
+                                        <Label text="Location"/>  
+                                        <Text id="JLOC" text="{JobDesc/Location}" width="100%"/>
+                                        <Label text="Department"/>  
+                                        <Text id="Dept" text="{JobDesc/Dep}" width="100%"/>
+                                        <Label text="Job Description"/>  
+                                        <Text id="Des" text="{JobDesc/Desc}" width="100%"/></sap.ui.layout.form:content>  
+                                </sap.ui.layout.form:SimpleForm>  
+                            </items>  
+                        </HBox>
+                    </content>  
+                </Panel>  
+                <Panel xmlns="sap.m" width="auto" expanded="true" id="panel0_1701630690425">  
+                    <headerToolbar>  
+                        <Toolbar id="toolbar1">  
+                            <Title text="Family Details"/>  
+                                <ToolbarSpacer/>  
+                                      
+                            </Toolbar>  
+                                  
+                    </headerToolbar>  
+                    <content>  
+                        <Table noDataText="Drop column list items here and columns in the area above" id="table0" items="{FamilyDetails}">  
+                            <items>  
+                                <ColumnListItem type="Active" id="item0">  
+                                    <cells>  
+                                        <Text text="{Name}" id="cel1"/>  
+                                        <Text text="{Relation}" id="cel2"/>  
+                                        <Text text="{Age}" id="cel3"/>
+                                        <Text text="{Passport}" id="cel4"/></cells>  
+                                </ColumnListItem>  
+                            </items>  
+                            <columns>  
+                                <Column id="column0">  
+                                    <header>  
+                                        <Label text="Name" id="label0"/>  
+                                    </header>  
+                                </Column>  
+                                <Column id="column1">  
+                                    <header>  
+                                        <Label text="Relation" id="label1"/>  
+                                    </header>  
+                                </Column>  
+                                <Column id="column2">  
+                                    <header>  
+                                        <Label text="Age" id="label2"/>  
+                                    </header>  
+                                </Column>
+                                <Column id="column3">  
+                                    <header>  
+                                        <Label text="Passport No" id="label3"/>  
+                                    </header>  
+                                </Column></columns></Table>  
+                    </content>  
+                </Panel>    
+            </content>  
+            </Page>
+        </pages>
+    </App>
+</mvc:View>

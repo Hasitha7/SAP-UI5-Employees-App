@@ -1,0 +1,11 @@
+{
+    "Name" : "Hasitha",
+    "Street" : "Pandulagma",
+    "HouseNumber" : "118",
+
+    "address" : {
+         "ZIPCode" : "50000",
+         "City" : "Anuradhapura",
+         "Country" : "Sri Lanka"
+    }
+}

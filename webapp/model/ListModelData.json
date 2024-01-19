@@ -1,0 +1,22 @@
+{
+    "cardDetails" :[
+      {
+        "cardType" : "Debit Card",
+        "cardNumber" : "235689",
+        "cardBank" : "HNB",
+        "status" : true
+      },
+      {
+        "cardType" : "Credit Card",
+        "cardNumber" : "124578",
+        "cardBank" : "BOC",
+        "status" : false
+      },
+      {
+        "cardType" : "Demo Card",
+        "cardNumber" : "467913",
+        "cardBank" : "COM",
+        "status" : true
+      }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "NameOfCompany" : "UI5 Technologies",
+    "ContactPerson" : "David Watson",
+    "YearEstablished" : "2007",
+    "NumberOfEmployees" : "350",
+    "GrossAnnualTurnover" : "$120M",
+    "TypeOfBuisness": "Enterprise Solutions",
+    "CompanyEmail" : "ui5tech@gmail.com",
+    "CompanyAddress":{
+        "Street" : "Downing Street",
+        "Country" : "United Kingdom",
+        "Tel" : "+44 20 7256 4569"
+    }
+}

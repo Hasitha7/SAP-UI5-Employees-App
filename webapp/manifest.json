@@ -1,0 +1,154 @@
+{
+  "_version": "1.58.0",
+  "sap.app": {
+    "id": "myproject",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.11.3",
+      "toolsId": "2c96832e-25a1-4ab1-9bfd-27994c9b169a"
+    },
+    "dataSources":{
+      "airLineService":{
+        "uri": "/sap/opu/odata/SAP/ZDEVH_FLIGHT_NAV_SRV",
+        "type":"OData",
+        "settings": {
+          "odataVersion": "2.0"
+        }
+
+      }
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.120.0",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.f": {},
+        "sap.suite.ui.generic.template": {},
+        "sap.ui.comp": {},
+        "sap.ui.generic.app": {},
+        "sap.ui.table": {},
+        "sap.ushell": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "myproject.i18n.i18n"
+        }
+      },
+      "FirstModelData":{
+        "type":"sap.ui.model.json.JSONModel",
+        "uri": "model/FirstModelData.json"
+      },
+      "ListModelData":{
+        "type":"sap.ui.model.json.JSONModel",
+        "uri": "model/ListModelData.json"
+      },
+      "EmployeeData":{
+        "type":"sap.ui.model.json.JSONModel",
+        "uri": "model/EmployeeData.json"
+      },
+      "CompanyInfoData":{
+        "type":"sap.ui.model.json.JSONModel",
+        "uri": "model/CompanyInfoData.json"
+      },
+      "AirLineServiceModel": {
+        "type": "sap.ui.model.odata.v2.ODataModel",
+        "settings":{
+          "defaultBindingMode": "TwoWay",
+          "defaultOperationMode": "Server",
+          "defaultUpdateMethod" : "PUT",
+          "useBatch":false
+        },
+        "dataSource": "airLineService",
+        "preload": true
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "async": true,
+        "viewPath": "myproject.view",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "clearControlAggregation": false
+      },
+      "routes": [
+        {
+          "name": "RouteFirstProject",
+          "pattern": ":?query:",
+          "target": [
+            "TargetFirstProject"
+          ]
+        },
+        {
+          "pattern": "NextPage/{EmpNo}",
+          "name": "NextPage",
+          "target":[
+            "NextPage"
+          ]
+        }
+      ],
+      "targets": {
+        "TargetFirstProject": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "FirstProject",
+          "viewName": "FirstProject"
+        },
+        "NextPage":{
+          "viewName": "NextPage",
+          "viewId": "NextPage",
+          "viewLevel": 1
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "myproject.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "App"
+    }
+  }
+}

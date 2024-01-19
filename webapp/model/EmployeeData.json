@@ -1,0 +1,473 @@
+{
+    "EmployeeList":[
+        {
+            "EmpNo":"10001",
+            "EmpName": "Smith Patel",
+            "Position":"Manager",
+            "Exp":"8",
+            "Loc": "Chennai",
+            "GeneralInfo":{
+                "FirstName" : "Smith",
+                "LastName" : "Patel",
+                "Gender" : "Male",
+                "DOB" : "1995/08/01",
+                "DOJ" : "Manager of Financial Department",
+                "Location" : "Chennai",
+                "Email" : "smith@gmail.com",
+                "Phone" : "077 469 8923"
+            },
+            "AddressDetails":{
+                "Street" : "Chennai",
+                "City" : "India",
+                "ZIPCode" : "600012",
+                "Country" : "India",
+                "Fax" : "+46 8 600 818 01",
+                "Mobile" : "+94712654896"
+            },
+            "JobDesc":{
+                "JobTitle" : "Manager",
+                "JobType" : "Onsite",
+                "Dep" : "Finance Department",
+                "Location" : "chennai",
+                "Desc" : "Manager of Financial Section"
+
+            },
+            "FamilyDetails":[
+                {
+                    "Name":"Deepika Suresh",
+                    "Age": "34",
+                    "Relation":"Wife",
+                    "Passport":"NBT4256"
+                },
+                {
+                    "Name":"Danush",
+                    "Age": "14",
+                    "Relation":"Son",
+                    "Passport":"NBT4623"
+                },
+                {
+                    "Name":"Kavisha",
+                    "Age": "08",
+                    "Relation":"Daughter",
+                    "Passport":"NBT4982"
+                }
+            ]
+        },
+        {
+                    "EmpNo":"10002",
+                    "EmpName": "Emily Johnson",
+                    "Position":"Software Engineer",
+                    "Exp":"5",
+                    "Loc": "New York",
+                    "GeneralInfo":{
+                        "FirstName" : "Emily",
+                        "LastName" : "Johnson",
+                        "Gender" : "Female",
+                        "DOB" : "1990/05/15",
+                        "DOJ" : "Software Engineer",
+                        "Location" : "New York",
+                        "Email" : "emily@gmail.com",
+                        "Phone" : "088 765 4321"
+                    },
+                    "AddressDetails":{
+                        "Street" : "Brooklyn",
+                        "City" : "USA",
+                        "ZIPCode" : "10001",
+                        "Country" : "USA",
+                        "Fax" : "+1 123 456 7890",
+                        "Mobile" : "+1 987 654 3210"
+                    },
+                    "JobDesc":{
+                        "JobTitle" : "Software Engineer",
+                        "JobType" : "Remote",
+                        "Dep" : "Technology Department",
+                        "Location" : "New York",
+                        "Desc" : "Developing innovative software solutions"
+                    },
+                    "FamilyDetails":[
+                        {
+                            "Name":"Michael Johnson",
+                            "Age": "38",
+                            "Relation":"Husband",
+                            "Passport":"US456789"
+                        },
+                        {
+                            "Name":"Sophia",
+                            "Age": "10",
+                            "Relation":"Daughter",
+                            "Passport":"US987654"
+                        }
+                    ]
+                },
+                {
+                            "EmpNo":"10003",
+                            "EmpName": "David Miller",
+                            "Position":"Marketing Coordinator",
+                            "Exp":"6",
+                            "Loc": "London",
+                            "GeneralInfo":{
+                                "FirstName" : "David",
+                                "LastName" : "Miller",
+                                "Gender" : "Male",
+                                "DOB" : "1988/12/10",
+                                "DOJ" : "Marketing Coordinator",
+                                "Location" : "London",
+                                "Email" : "david@gmail.com",
+                                "Phone" : "020 7456 7890"
+                            },
+                            "AddressDetails":{
+                                "Street" : "Oxford Street",
+                                "City" : "UK",
+                                "ZIPCode" : "W1D 1NN",
+                                "Country" : "UK",
+                                "Fax" : "+44 20 7456 7891",
+                                "Mobile" : "+44 7890 123456"
+                            },
+                            "JobDesc":{
+                                "JobTitle" : "Marketing Coordinator",
+                                "JobType" : "Onsite",
+                                "Dep" : "Marketing Department",
+                                "Location" : "London",
+                                "Desc" : "Coordinating marketing activities"
+                            },
+                            "FamilyDetails":[
+                                {
+                                    "Name":"Sophie Miller",
+                                    "Age": "32",
+                                    "Relation":"Wife",
+                                    "Passport":"UK123456"
+                                },
+                                {
+                                    "Name":"Oliver",
+                                    "Age": "5",
+                                    "Relation":"Son",
+                                    "Passport":"UK789012"
+                                }
+                            ]
+                        },
+                        {
+                            "EmpNo":"10004",
+                            "EmpName": "Linda Chen",
+                            "Position":"HR Specialist",
+                            "Exp":"7",
+                            "Loc": "Shanghai",
+                            "GeneralInfo":{
+                                "FirstName" : "Linda",
+                                "LastName" : "Chen",
+                                "Gender" : "Female",
+                                "DOB" : "1992/03/25",
+                                "DOJ" : "HR Specialist",
+                                "Location" : "Shanghai",
+                                "Email" : "linda@gmail.com",
+                                "Phone" : "021 8765 4321"
+                            },
+                            "AddressDetails":{
+                                "Street" : "Nanjing Road",
+                                "City" : "China",
+                                "ZIPCode" : "200001",
+                                "Country" : "China",
+                                "Fax" : "+86 21 8765 4322",
+                                "Mobile" : "+86 138 0011 2233"
+                            },
+                            "JobDesc":{
+                                "JobTitle" : "HR Specialist",
+                                "JobType" : "Onsite",
+                                "Dep" : "Human Resources",
+                                "Location" : "Shanghai",
+                                "Desc" : "Specializing in employee relations"
+                            },
+                            "FamilyDetails":[
+                                {
+                                    "Name":"Kevin Chen",
+                                    "Age": "36",
+                                    "Relation":"Husband",
+                                    "Passport":"CN987654"
+                                },
+                                {
+                                    "Name":"Sophia",
+                                    "Age": "8",
+                                    "Relation":"Daughter",
+                                    "Passport":"CN123456"
+                                }
+                            ]
+                        },
+                        {
+                            "EmpNo":"10005",
+                            "EmpName": "Jonathan Williams",
+                            "Position":"Senior Developer",
+                            "Exp":"10",
+                            "Loc": "San Francisco",
+                            "GeneralInfo":{
+                                "FirstName" : "Jonathan",
+                                "LastName" : "Williams",
+                                "Gender" : "Male",
+                                "DOB" : "1985/09/18",
+                                "DOJ" : "Senior Developer",
+                                "Location" : "San Francisco",
+                                "Email" : "jonathan@gmail.com",
+                                "Phone" : "415 123 4567"
+                            },
+                            "AddressDetails":{
+                                "Street" : "Market Street",
+                                "City" : "USA",
+                                "ZIPCode" : "94105",
+                                "Country" : "USA",
+                                "Fax" : "+1 415 123 4568",
+                                "Mobile" : "+1 415 987 6543"
+                            },
+                            "JobDesc":{
+                                "JobTitle" : "Senior Developer",
+                                "JobType" : "Onsite",
+                                "Dep" : "Technology Department",
+                                "Location" : "San Francisco",
+                                "Desc" : "Leading development projects"
+                            },
+                            "FamilyDetails":[
+                                {
+                                    "Name":"Laura Williams",
+                                    "Age": "38",
+                                    "Relation":"Wife",
+                                    "Passport":"US876543"
+                                },
+                                {
+                                    "Name":"Ethan",
+                                    "Age": "12",
+                                    "Relation":"Son",
+                                    "Passport":"US123789"
+                                }
+                            ]
+                        },
+                        {
+                            "EmpNo":"10006",
+                            "EmpName": "Sophie Brown",
+                            "Position":"Customer Support Specialist",
+                            "Exp":"4",
+                            "Loc": "Berlin",
+                            "GeneralInfo":{
+                                "FirstName" : "Sophie",
+                                "LastName" : "Brown",
+                                "Gender" : "Female",
+                                "DOB" : "1993/07/22",
+                                "DOJ" : "Customer Support Specialist",
+                                "Location" : "Berlin",
+                                "Email" : "sophie@gmail.com",
+                                "Phone" : "+49 30 9876 5432"
+                            },
+                            "AddressDetails":{
+                                "Street" : "Friedrichstrasse",
+                                "City" : "Germany",
+                                "ZIPCode" : "10117",
+                                "Country" : "Germany",
+                                "Fax" : "+49 30 9876 5433",
+                                "Mobile" : "+49 176 8765 4321"
+                            },
+                            "JobDesc":{
+                                "JobTitle" : "Customer Support Specialist",
+                                "JobType" : "Onsite",
+                                "Dep" : "Customer Support",
+                                "Location" : "Berlin",
+                                "Desc" : "Providing excellent customer service"
+                            },
+                            "FamilyDetails":[
+                                {
+                                    "Name":"Daniel Brown",
+                                    "Age": "35",
+                                    "Relation":"Husband",
+                                    "Passport":"DE123456"
+                                },
+                                {
+                                    "Name":"Emma",
+                                    "Age": "6",
+                                    "Relation":"Daughter",
+                                    "Passport":"DE789012"
+                                }
+                            ]
+                        },
+                        {
+                            "EmpNo":"10007",
+                            "EmpName": "Carlos Rodriguez",
+                            "Position":"Accountant",
+                            "Exp":"9",
+                            "Loc": "Madrid",
+                            "GeneralInfo":{
+                                "FirstName" : "Carlos",
+                                "LastName" : "Rodriguez",
+                                "Gender" : "Male",
+                                "DOB" : "1987/04/30",
+                                "DOJ" : "Accountant",
+                                "Location" : "Madrid",
+                                "Email" : "carlos@gmail.com",
+                                "Phone" : "+34 91 876 5432"
+                            },
+                            "AddressDetails":{
+                                "Street" : "Gran Via",
+                                "City" : "Spain",
+                                "ZIPCode" : "28013",
+                                "Country" : "Spain",
+                                "Fax" : "+34 91 876 5433",
+                                "Mobile" : "+34 678 901 234"
+                            },
+                            "JobDesc":{
+                                "JobTitle" : "Accountant",
+                                "JobType" : "Onsite",
+                                "Dep" : "Finance Department",
+                                "Location" : "Madrid",
+                                "Desc" : "Managing financial records"
+                            },
+                            "FamilyDetails":[
+                                {
+                                    "Name":"Isabel Rodriguez",
+                                    "Age": "33",
+                                    "Relation":"Wife",
+                                    "Passport":"ES987654"
+                                },
+                                {
+                                    "Name":"Antonio",
+                                    "Age": "7",
+                                    "Relation":"Son",
+                                    "Passport":"ES123456"
+                                }
+                            ]
+                        },
+                        {
+                            "EmpNo":"10008",
+                            "EmpName": "Mia Kim",
+                            "Position":"Graphic Designer",
+                            "Exp":"3",
+                            "Loc": "Seoul",
+                            "GeneralInfo":{
+                                "FirstName" : "Mia",
+                                "LastName" : "Kim",
+                                "Gender" : "Female",
+                                "DOB" : "1994/11/12",
+                                "DOJ" : "Graphic Designer",
+                                "Location" : "Seoul",
+                                "Email" : "mia@gmail.com",
+                                "Phone" : "+82 2 8765 4321"
+                            },
+                            "AddressDetails":{
+                                "Street" : "Gangnam-gu",
+                                "City" : "South Korea",
+                                "ZIPCode" : "135-080",
+                                "Country" : "South Korea",
+                                "Fax" : "+82 2 8765 4322",
+                                "Mobile" : "+82 10 1234 5678"
+                            },
+                            "JobDesc":{
+                                "JobTitle" : "Graphic Designer",
+                                "JobType" : "Onsite",
+                                "Dep" : "Design Department",
+                                "Location" : "Seoul",
+                                "Desc" : "Creating visually appealing designs"
+                            },
+                            "FamilyDetails":[
+                                {
+                                    "Name":"Joon Kim",
+                                    "Age": "37",
+                                    "Relation":"Husband",
+                                    "Passport":"KR987654"
+                                },
+                                {
+                                    "Name":"Soo-Min",
+                                    "Age": "4",
+                                    "Relation":"Daughter",
+                                    "Passport":"KR123456"
+                                }
+                            ]
+                        },
+                        {
+                            "EmpNo":"10009",
+                            "EmpName": "Alexandre Dubois",
+                            "Position":"Sales Manager",
+                            "Exp":"12",
+                            "Loc": "Paris",
+                            "GeneralInfo":{
+                                "FirstName" : "Alexandre",
+                                "LastName" : "Dubois",
+                                "Gender" : "Male",
+                                "DOB" : "1980/08/20",
+                                "DOJ" : "Sales Manager",
+                                "Location" : "Paris",
+                                "Email" : "alexandre@gmail.com",
+                                "Phone" : "+33 1 8765 4321"
+                            },
+                            "AddressDetails":{
+                                "Street" : "Champs-Élysées",
+                                "City" : "France",
+                                "ZIPCode" : "75008",
+                                "Country" : "France",
+                                "Fax" : "+33 1 8765 4322",
+                                "Mobile" : "+33 6 9876 5432"
+                            },
+                            "JobDesc":{
+                                "JobTitle" : "Sales Manager",
+                                "JobType" : "Onsite",
+                                "Dep" : "Sales Department",
+                                "Location" : "Paris",
+                                "Desc" : "Managing and leading sales team"
+                            },
+                            "FamilyDetails":[
+                                {
+                                    "Name":"Isabelle Dubois",
+                                    "Age": "35",
+                                    "Relation":"Wife",
+                                    "Passport":"FR987654"
+                                },
+                                {
+                                    "Name":"Luc",
+                                    "Age": "10",
+                                    "Relation":"Son",
+                                    "Passport":"FR123456"
+                                }
+                            ]
+                        },
+                        {
+                            "EmpNo":"10010",
+                            "EmpName": "Yuki Tanaka",
+                            "Position":"Product Manager",
+                            "Exp":"8",
+                            "Loc": "Tokyo",
+                            "GeneralInfo":{
+                                "FirstName" : "Yuki",
+                                "LastName" : "Tanaka",
+                                "Gender" : "Female",
+                                "DOB" : "1989/06/05",
+                                "DOJ" : "Product Manager",
+                                "Location" : "Tokyo",
+                                "Email" : "yuki@gmail.com",
+                                "Phone" : "+81 3 8765 4321"
+                            },
+                            "AddressDetails":{
+                                "Street" : "Shibuya",
+                                "City" : "Japan",
+                                "ZIPCode" : "150-0002",
+                                "Country" : "Japan",
+                                "Fax" : "+81 3 8765 4322",
+                                "Mobile" : "+81 90 1234 5678"
+                            },
+                            "JobDesc":{
+                                "JobTitle" : "Product Manager",
+                                "JobType" : "Onsite",
+                                "Dep" : "Product Management",
+                                "Location" : "Tokyo",
+                                "Desc" : "Managing product development"
+                            },
+                            "FamilyDetails":[
+                                {
+                                    "Name":"Hiroshi Tanaka",
+                                    "Age": "40",
+                                    "Relation":"Husband",
+                                    "Passport":"JP987654"
+                                },
+                                {
+                                    "Name":"Aiko",
+                                    "Age": "6",
+                                    "Relation":"Daughter",
+                                    "Passport":"JP123456"
+                                }
+            ]
+        }
+                
+    ]
+}
+       

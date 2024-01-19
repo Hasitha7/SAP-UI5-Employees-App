@@ -1,0 +1,137 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core" controllerName="myproject.controller.FirstProject" displayBlock="true">
+		<f:SimpleForm id="SimpleFormDisplayColumn_oneGroup234" editable="false" layout="ColumnLayout" title="Company Information" columnsM="2" columnsL="2" columnsXL="2">
+			<f:content>
+				<Label text="Name of Company"/>
+				<Text id="nameText" text="{CompanyInfoData>/NameOfCompany}"/>
+				<Label text=""/>
+				<Text text=""/>
+				<Label text="Contact Person"/>
+				<Text text="{CompanyInfoData>/ContactPerson}"/>
+				<Label text=""/>
+				<Text text=""/>
+				<Label text="Year established"/>
+				<Text text="{CompanyInfoData>/YearEstablished}"/>
+				<Label text=""/>
+				<Text text=""/>
+				<Label text="Number of employees"/>
+				<Text text="{CompanyInfoData>/NumberOfEmployees}"/>
+				<Label text=""/>
+				<Text text=""/>
+				<Label text="Gross annual Turnover"/>
+				<Text text="{CompanyInfoData>/GrossAnnualTurnover}"/>
+				<Label text="Type of Buisness"/>
+				<Text text="{CompanyInfoData>/TypeOfBuisness}"/>
+				<Label text=""/>
+				<Text text=""/>
+				<Label text="Company Email"/>
+				<Text text="{CompanyInfoData>/CompanyEmail}"/>
+				<Label text=""/>
+				<Text text=""/>
+				<Label text="Company Address"/>
+				<Text text=""/>
+				<Label text=""/>
+				<Text text=""/>
+				<Label text="Street"/>
+				<Text text="{CompanyInfoData>/CompanyAddress/Street}"/>
+				<Label text="Country"/>
+				<Text text="{CompanyInfoData>/CompanyAddress/Country}"/>
+				<Label text="Telephone"/>
+				<Text text="{CompanyInfoData>/CompanyAddress/Tel}"/>
+			</f:content>
+		</f:SimpleForm>
+		<Panel xmlns="sap.m" width="auto" expanded="true" id="panel0">
+		    <headerToolbar>
+		        <Toolbar id="toolbar1">
+		            <Title text="Employee List"/>
+					<ToolbarSpacer ></ToolbarSpacer>
+		        <content>
+		            <Button xmlns="sap.m" icon="sap-icon://add" press="onCreate"/>
+		        </content>
+		        </Toolbar>
+		        
+		    </headerToolbar>
+		    <content>
+		        
+		    <Table selectionChange="onItemPress" growing="true" growingScrollToLoad="true" mode="SingleSelectLeft" id="one" items="{EmployeeData>/EmployeeList}">
+		        
+		        <items>
+		        
+		            <ColumnListItem type="Active" id="item0">
+		        
+		                <cells>		        
+		                    <Text text="{EmployeeData>EmpNo}" id="text17"/>		        
+		                    <Text text="{EmployeeData>EmpName}" id="text18"/>		        
+		                    <Text text="{EmployeeData>Position}" id="text19"/>
+							<Text text="{EmployeeData>Exp}" id="text20"/>
+							<Text text="{EmployeeData>Loc}" id="text21"/></cells>		        
+		            </ColumnListItem>
+		        
+		        </items>
+		        
+		        <columns>
+		        
+		            <Column id="column0">
+		        
+		                <header>
+		        
+		                    <Label text="Employee Number"/>
+		        
+		                </header>
+		        
+		            </Column>
+					<Column id="column1">
+		        
+		                <header>
+		        
+		                    <Label text="Employee Name"/>
+		        
+		                </header>
+		        
+		            </Column>
+					<Column id="column2">
+		        
+		                <header>
+		        
+		                    <Label text="Position" id="label18"/>
+		        
+		                </header>
+		        
+		            </Column>
+		        
+		            <Column id="column3">
+		        
+		                <header>
+		        
+		                    <Label text="Experience(Yrs) " id="label19"/>
+		        
+		                </header>
+		        
+		            </Column>
+		        
+		            <Column id="column4">
+		        
+		                <header>
+		        
+		                    <Label text="Location" id="label20"/>
+		        
+		                </header>
+		        
+		            </Column></columns></Table>
+		        
+		    </content>
+		    </Panel>
+			<Dialog id="onDialogCreate" title="Add New Employee">
+				<Label text="Employee Number"></Label>
+				<Input value="" placeholder="10001"></Input>
+				<Label text="Employee Name"></Label>
+				<Input value="" placeholder="Smith Patel"></Input>
+				<Label text="Position"></Label>
+				<Input value="" placeholder="Manager"></Input>
+				<Label text="Expirience(Yrs)"></Label>
+				<Input value="" placeholder="8"></Input>
+				<Label text="Location"></Label>
+				<Input value="" placeholder="Chennai"></Input>
+				<Button text="Save" press="onSave"/>
+				<Button text="Cancel" press="onCancel"/>
+			</Dialog>
+</mvc:View>
